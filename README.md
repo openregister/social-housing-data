@@ -4,6 +4,8 @@ The data for a social-housing-provider register seeded from the
 [registered providers of social housing](https://www.gov.uk/government/publications/current-registered-providers-of-social-housing) open data
 kept and maintained by the [Homes & Communities Agency](https://www.gov.uk/government/organisations/homes-and-communities-agency).
 
+  * [data/social-housing-provider/social-housing-provider.tsv](data/social-housing-provider/social-housing-provider.tsv)
+
 # Building
 
 Use `make` to build register shaped data
