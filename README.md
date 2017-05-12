@@ -1,8 +1,8 @@
 # Social housing register data
 
-The data for the [social-housing-provider register](http://social-housing-provider.openregister.org), created from 
+The data for a social-housing-provider register seeded from the
 [registered providers of social housing](https://www.gov.uk/government/publications/current-registered-providers-of-social-housing) open data
-maintained by the [Homes & Communities Agency](https://www.gov.uk/government/organisations/homes-and-communities-agency).
+kept and maintained by the [Homes & Communities Agency](https://www.gov.uk/government/organisations/homes-and-communities-agency).
 
 # Building
 
@@ -11,8 +11,13 @@ Use `make` to build register shaped data
 
     $ mkvirtualenv -p python3 social-housing-data
     $ workon social-housing-data
-    $ make init
 
+    $ cd lists/hca
+    $ make init
+    $ make
+
+    $ cd ../..
+    $ make init
     $ make
 
 # Licence
