@@ -1,4 +1,4 @@
-URL=https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/613134/List_of_Registered_Providers_at_8_May_2017.xlsx
+URL=https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/629379/List_of_Registered_Providers_at_1_July_2017.xlsx
 
 .PHONY: init test all clean data
 
